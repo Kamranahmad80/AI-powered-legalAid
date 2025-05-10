@@ -32,8 +32,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/legal-aid.git
-   cd legal-aid
+   git clone https://github.com/Kamranahmad80/AI-powered-legalAid.git
+   cd AI-powered-legalAid
    ```
 
 2. **Install dependencies**
