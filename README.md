@@ -58,7 +58,7 @@
    ```
 
 5. **Open your browser**
-   - Navigate to `http://localhost:5173`
+   - Navigate to `https://ai-powered-legal-aid.vercel.app`
 
 ## 🖥️ Usage
 
