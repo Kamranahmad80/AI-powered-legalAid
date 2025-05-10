@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { Analytics } from '@vercel/analytics/react';
 import CategorySelector from './components/CategorySelector';
 import CountrySelector from './components/CountrySelector';
 import ChatContainer from './components/ChatContainer';
@@ -7,6 +8,7 @@ import ChatInput from './components/ChatInput';
 import Disclaimer from './components/Disclaimer';
 import { generateLegalResponse } from './services/api';
 import './App.css';
+
 
 const AppContainer = styled.div`
   max-width: 900px;
@@ -124,6 +126,7 @@ function App() {
 
   return (
     <AppContainer>
+      <Analytics />
       <Header>
         <Title>AI Legal Aid Chatbot</Title>
         <Subtitle>Get simple, clear answers to common legal questions</Subtitle>
